@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Your Brain Deletes Boring Days on Purpose</title>
+<meta name="description" content="A 55-second explainer on why boring days vanish from memory.">
+<meta property="og:title" content="Your Brain Deletes Boring Days on Purpose">
+<meta property="og:description" content="A 55-second explainer on why boring days vanish from memory.">
+<meta property="og:type" content="video.other">
+<meta property="og:video" content="https://kenpped.github.io/boring-days-video/video.mp4">
+<style>
+  :root { --bg: #0E0F12; --fg: #F2F2F4; --muted: #9A9CA6; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 15px/1.5 "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+  }
+  main { display: grid; gap: 14px; justify-items: center; width: 100%; }
+  video {
+    display: block;
+    height: min(82vh, 860px);
+    max-width: 100%;
+    aspect-ratio: 9 / 16;
+    border-radius: 14px;
+    background: #000;
+  }
+  h1 { margin: 0; font-size: 1.05rem; font-weight: 600; text-align: center; text-wrap: balance; }
+  p { margin: 0; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <video src="video.mp4" controls playsinline preload="metadata"></video>
+  <h1>Your brain deletes boring days on purpose</h1>
+  <p>0:55 · tap to play</p>
+</main>
+</body>
+</html>
